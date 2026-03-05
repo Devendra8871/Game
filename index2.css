@@ -1,0 +1,35 @@
+body{
+      text-align: center;
+}
+.b{
+      color: azure;
+      height:200px;
+      width:200px;
+      border: 8px solid black;
+      border-radius: 20%;
+      margin: 2.5rem;
+}
+.box-container{
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+      
+
+}
+.red{
+      background-color: #f99b45;
+
+}
+.yellow{
+      background-color: #d95980;
+}
+.purple{
+      background-color: #819ff9;
+
+}
+.orange{
+      background-color: #63aac0;
+}
+.flash{
+      background-color: #fff;
+}
