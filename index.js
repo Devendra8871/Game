@@ -20,7 +20,7 @@ document.addEventListener("keypress", function () {
 function btnFlash(btn) {
       btn.classList.add("flash");
       setTimeout(function () {
-            btn.classList.remove("flesh");
+            btn.classList.remove("flash");
       }, 250);
 }
 
@@ -35,4 +35,12 @@ function levelup() {
       console.log(randColor);
       console.log(randBtn);
       btnFlash(randBtn);
+}
+function btnPress(){
+      console.log(this);
+}
+
+let allBtns = document.querySelectorAll("btn");
+for (btn of allBtns) {
+      btn.addEventListener("click", btnPress);
 }
